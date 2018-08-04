@@ -1,0 +1,125 @@
+#main{
+    display: grid;
+    justify-items: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  h2{
+    display: grid;
+    justify-items: center;
+  }
+  ul{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    
+    list-style-type: none;
+    
+   
+    }
+  li{
+    padding-right: 60px;
+    margin-right: 10px;
+  }
+  .about{
+    display: grid;
+    justify-items: center;
+    font-family: roboto , sans;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+  
+  .fm{
+    text-align: justify;
+    width: 500px;
+  }
+  .francis1, .francis2, .francis3{
+    filter:blur(5px);
+  }
+  .francis1:hover, .francis2:hover, .francis3:hover{
+    filter:blur(0px);
+  }
+  .dates{
+    justify-self: center;
+    margin: 10px auto auto 60px;
+  }
+  #gallery{
+    display:grid;
+    justify-items: center;
+  }
+  .kiko{
+    display: flex;
+    width: 900px;
+    padding-bottom: 100px;
+    
+  }
+  .francis1{
+    background-image: url("https://raw.githubusercontent.com/alaindimabuyo/playground-nqitsxay/master/James-deakinFMURCC8.jpg");
+    background-size: 600px;
+    width: 300px;
+    height: 400px;
+    border: 5px solid white;
+    background-position: 300px 0px;
+  }
+  .francis2{
+    background-image: url("https://raw.githubusercontent.com/alaindimabuyo/playground-nqitsxay/master/thats_my_amboy-titlecard2.jpg");
+    background-size: 600px;
+    width: 300px;
+    height: 400px;
+    border: 5px solid white;
+    background-position: 500px -100px;
+  }
+  .francis3{
+    background-image: url("https://raw.githubusercontent.com/alaindimabuyo/playground-nqitsxay/master/francism.jpg");
+    background-size: 700px;
+    width: 300px;
+    height: 400px;
+    border: 5px solid white;
+    background-position: 500px 10px;
+  }
+  
+  #disco{
+    background: linear-gradient(30deg, #f12711,#f5a419);
+    background-size: 2000px;
+    color: #E0E0E0;
+    padding: 50px 280px 100px 280px ;
+    margin-bottom: 20px;
+  }
+  .socials{
+    display: flex;
+  }
+  
+  a{
+    text-decoration: none; 
+    color: #212121;
+  }
+  a:hover{
+    color: #fc4a1a;
+    
+  }
+  svg{
+     margin: 50px;
+     width: 50%;
+     height: auto;
+  }
+  svg:hover{
+    animation-name: bounce;
+    animation-duration: 1s;
+    
+    
+    
+  }
+  @keyframes bounce{
+      0%{
+        transform: translateY(0px);
+      }
+      50%{
+        transform: translateY(10px);
+      }
+      100%{
+        transform: translateY(0px);
+      }
+    }
+  
+  
+  
+  
+  
